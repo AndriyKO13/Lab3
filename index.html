@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BuyList2</title>
+
+    <link rel="stylesheet" type="text/css" href="main.css" />
+</head>
+
+<body>
+    <main>
+        <article class="main">
+            <section class="badge">
+                <span class="badge-text">Buy List</span>
+                <span class="badge-author">Author: Krasovskyy Andrii</span>
+            </section>
+
+            
+            <section class="shopping-cart">
+                <section class="block-left">
+                    <section class="add-new">
+                        <input type="text" class="add-field" id="product-name" name="product name" maxlength="10" required placeholder="Назва товару">
+                        <button class="button-add" data-tooltip="Додати товар">Додати товар</button>
+                    </section>
+                    
+
+                </section>
+                
+                <section class="block-right">
+                        <h2 class="title-remain">
+                            Залишилося
+                        </h2>
+                        <section class="container-right">
+							
+							<section class="container-right" id="remaining-products">
+							<!-- Тут будуть відображатися товари, що залишилися -->
+							</section>
+                           
+
+                        </section>
+                        <h2 class="title-bought">
+                            Куплено
+                        </h2>
+                        <section class="container-right">
+							<section class="container-right" id="bought-products">
+							<!-- Тут будуть відображатися куплені товари -->
+							</section>
+                        </section>
+                </section>            
+            </section>
+        </article>
+
+    </main>
+    
+    <!--<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>-->
+    <script type="text/javascript" src="main.js"></script>
+    
+</body>
+</html>
+
+
